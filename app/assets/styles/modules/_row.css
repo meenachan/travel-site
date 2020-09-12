@@ -3,7 +3,7 @@
     &__b-margin-until-medium{
         margin-bottom: 1rem;
     }
-    @mixin clearFix ;
+    @mixin clearFix;
     
     @mixin atMedium{
         &__medium-4{
