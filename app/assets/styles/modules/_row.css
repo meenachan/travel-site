@@ -1,8 +1,21 @@
 .row{
-     
+    &--gutter {
+        margin-right: -65px;
+    }
+    &--gutter-large{
+        margin-right: -130px;
+    }
+    &--gutter > div{
+        padding-right: 65px;
+       
+    }  
+    &--gutter-large > div{
+        padding-right: 130px;
+    }
     &__b-margin-until-medium{
         margin-bottom: 1rem;
     }
+
     @mixin clearFix;
     
     @mixin atMedium{
@@ -10,8 +23,13 @@
             float: left;
             width:33.33%;
         }
+        
         &__medium-4--larger{
             width:37%;
+        }
+        &__medium-6{
+            float: left;
+            width: 50%;
         }
         &__medium-8{
             float: left;
@@ -25,11 +43,9 @@
         }
     }
     
-    &--gutter > div{
-        padding-right: 65px;
-       
-    }
-    &--gutter {
-        margin-right: -65px;
-    }
+    
+   
+    
+
+    
 }
