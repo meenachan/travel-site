@@ -4,7 +4,6 @@
         padding : 4.5rem 0;
     }
    
-
     &--blue{
         background-color: $mainBlue;
         color: #fff;
@@ -23,7 +22,7 @@
     }
 
     &--testimonials{
-      background-color: #a0bdfc;
+      background-color: #f6f6f8;
         @mixin atLarge {
             border: 1px solid black;
             background: url('assets/images/testimonials-bg.jpg') top center no-repeat;
